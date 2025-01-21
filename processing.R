@@ -307,7 +307,7 @@ treemap_plat <- ggplot(
 ) +
   geom_treemap() +
   geom_treemap_text(
-    colour = "red",
+    colour = "white",
     place = "centre",
     size = 12
   ) +
