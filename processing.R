@@ -50,9 +50,9 @@ spotify <- df %>%  mutate(
   )  # Select columns of interest
 
 
-
+library(moments)
 #	Distribution of track duration
-
+median_value <- median(spotify$seconds, na.rm = TRUE)
 mean_value <- mean(spotify$seconds, na.rm = TRUE)
 
 hist_tracks <- ggplot(spotify, aes(seconds)) +
@@ -64,8 +64,16 @@ hist_tracks <- ggplot(spotify, aes(seconds)) +
   ) +
   annotate(
     "text",
-    x = mean_value + 50,
+    x = mean_value - 40,
     y = 0.015, label = paste("Mean =", round(mean_value), "s"),
+    color = "white",
+    size = 4,
+    fontface = "bold"
+  ) +
+  annotate(
+    "text",
+    x = median_value + 40,
+    y = 0.015, label = paste("Median =", round(median_value), "s"),
     color = "white",
     size = 4,
     fontface = "bold"
@@ -75,6 +83,12 @@ hist_tracks <- ggplot(spotify, aes(seconds)) +
     color = "white",
     linewidth = 1,
     linetype = "dashed"
+  ) +
+  geom_vline(
+    aes(xintercept = median_value),
+    color = "white",
+    linewidth = 1,
+    linetype = "dotted"
   ) +
   labs(
     title = "Distribution of seconds listened per song",
