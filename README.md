@@ -53,7 +53,7 @@ As we can observe the distribution exhibits a moderately positive skewness (the 
 ![Image Description](plots/plot2.png)
 
 ## Top Artists, Songs and Albums
- One of the most exciting things about Spotify Wrapped is that you can uncover musical taste by extracting bands 🧑‍🎤, songs 𝄞 and albums 📀. Let's see some top 20 of each.
+ One of the most exciting things about Spotify Wrapped is that you can uncover musical taste by extracting bands 🧑‍🎤, songs 𝄞 and albums 📀. Let's see the top 20.
 
 ### Top Artists
 ![Image Description](plots/plot3.png)
@@ -84,4 +84,8 @@ How the playback activity has evolved over the years?
 
 Playback activity peaked in two years: first in 2017 and most notably in 2021, likely influenced by the Covid-19 lockdown.
 # Conclusions
-
+- Consistent Prevalence of Short Track Durations: This trend remains steady across all months.
+- Preference for Blues and Rock Genres: These styles dominate listener choices.
+- Nighttime Listening Patterns: Music consumption peaks on Mondays and Fridays.
+- Preference for Android Platforms: Users favor Android devices for playback.
+- Playback Activity Trends: Notable peaks in activity occurred in 2017 and significantly in 2021.
