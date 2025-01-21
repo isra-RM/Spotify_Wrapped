@@ -50,7 +50,6 @@ spotify <- df %>%  mutate(
   )  # Select columns of interest
 
 
-library(moments)
 #	Distribution of track duration
 median_value <- median(spotify$seconds, na.rm = TRUE)
 mean_value <- mean(spotify$seconds, na.rm = TRUE)
@@ -297,7 +296,8 @@ heatmap_act <- ggplot(
     panel.grid.major.y = element_blank(),
     panel.grid.minor.y = element_blank(),
     strip.background = element_blank(),
-    strip.text = element_text(size = 12)
+    strip.text = element_text(size = 12),
+    plot.title = element_text(hjust = 0.5)
   )
 
 print(heatmap_act)
@@ -344,7 +344,7 @@ area_year <- ggplot(year_act, aes(x = year, y = total_time, fill = platform)) +
   scale_x_continuous(breaks = seq(2013, 2024, by = 1)) +
   scale_y_continuous(labels = scales::comma) +
   labs(
-    title = "Yearly Activity",
+    title = "Playback Activity over the years",
     x = "Year",
     y = "Total Minutes",
     fill = "Platform"

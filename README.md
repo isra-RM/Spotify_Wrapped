@@ -47,27 +47,41 @@ I wanted to answer the following questions about our dataset.
 
 ## Distribution of track duration
 ![Image Description](plots/plot1.png)
+
+As we can observe the distribution exhibits a moderately positive skewness (the median is greater than the mean), this implies that most tracks have a short duration, while a smaller number of long tracks stretch out towards the right. This pattern is consistent accross months as shown in the ridgeplot below.
+
 ![Image Description](plots/plot2.png)
 
-## Top Artists
+## Top Artists, Songs and Albums
+ One of the most exciting things about Spotify Wrapped is that you can uncover musical taste by extracting bands 🧑‍🎤, songs 𝄞 and albums 📀. Let's see some top 20 of each.
+
+### Top Artists
 ![Image Description](plots/plot3.png)
 ![Image Description](plots/plot4.png)
 
-## Top Songs 
+This person really likes rock and blues 🎸.
+### Top Songs 
 ![Image Description](plots/plot5.png)
 
-## Top Albums
+### Top Albums
 ![Image Description](plots/plot6.png)
 
 ## Daily Activity
+We can analyze daily listening habits to identify the hours and days of the week when music is most frequently played.
+
 ![Image Description](plots/plot7.png)
 ![Image Description](plots/plot8.png)
 
+There is a clear pattern of nighttime music listening, peaking between 5:00 PM and 8:00 PM, especially on Mondays and Fridays.   
 ## Preferred Platform
-![Image Description](plots/plot9.png)
 
-## Playback Evolution
+What about the preferred platform?  
+![Image Description](plots/plot9.png)
+In this case, Android has beaten its competitors in an overwhelming manner.
+## Playback Activity over the years
+How the playback activity has evolved over the years?
 ![Image Description](plots/plot10.png)
 
+Playback activity peaked in two years: first in 2017 and most notably in 2021, likely influenced by the Covid-19 lockdown.
 # Conclusions
 
