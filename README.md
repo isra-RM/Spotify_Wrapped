@@ -1,6 +1,6 @@
 # Introduction
 
-This is a visualization project for the [Mavens Music Challenge](https://mavenanalytics.io/challenges/maven-music-challenge/e161353d-9967-4297-869c-505de168e610). Every December, millions of Spotify users look forward to their Spotify Wrapped – a personalized recap showcasing their listening habits over the past year 🎧. Spotify user's complete music streaming history data can be downloaded [here](https://maven-datasets.s3.us-east-1.amazonaws.com/Spotify+Streaming+History/Spotify+Streaming+History.zip).
+This is a visualization project for the [Mavens Music Challenge](https://mavenanalytics.io/challenges/maven-music-challenge/e161353d-9967-4297-869c-505de168e610). Spotify user's complete music streaming 🎧 history data can be downloaded [here](https://maven-datasets.s3.us-east-1.amazonaws.com/Spotify+Streaming+History/Spotify+Streaming+History.zip).
 
 
 # Tools I used
